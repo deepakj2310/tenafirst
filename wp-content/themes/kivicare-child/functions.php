@@ -206,4 +206,7 @@ function top_services($param){
 
 function execute_on_register_new_user_event($user_id, $notify){
 
-  
+     update_user_meta($user_id, 'longitudess', 'Deepak');
+
+}
+add_action( "register_new_user", "execute_on_register_new_user_event" , 10, 2);
