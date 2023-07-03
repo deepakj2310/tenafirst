@@ -1,0 +1,40 @@
+2023-06-28T11:31:05+00:00 CRITICAL Uncaught TypeError: trim(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\tenafirst\wp-includes\rest-api.php:124
+Stack trace:
+#0 C:\xampp\htdocs\tenafirst\wp-includes\rest-api.php(124): trim(Array, '/')
+#1 C:\xampp\htdocs\tenafirst\wp-content\themes\kivicare-child\functions.php(156): register_rest_route('kivicare/api/v1...', Array)
+#2 C:\xampp\htdocs\tenafirst\wp-includes\class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#3 C:\xampp\htdocs\tenafirst\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\tenafirst\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\tenafirst\wp-includes\rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#6 C:\xampp\htdocs\tenafirst\wp-includes\rest-api.php(403): rest_get_server()
+#7 C:\xampp\htdocs\tenafirst\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#8 C:\xampp\htdocs\tenafirst\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\tenafirst\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\tenafirst\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#11 C:\xampp\htdocs\tenafirst\wp-includes\class-wp.php(780): WP->parse_request('')
+#12 C:\xampp\htdocs\tenafirst\wp-includes\functions.php(1334): WP->main('')
+#13 C:\xampp\htdocs\tenafirst\wp-blog-header.php(16): wp()
+#14 C:\xampp\htdocs\tenafirst\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\tenafirst\wp-includes\rest-api.php on line 124
+
+2023-06-28T11:31:38+00:00 CRITICAL Uncaught TypeError: trim(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\tenafirst\wp-includes\rest-api.php:124
+Stack trace:
+#0 C:\xampp\htdocs\tenafirst\wp-includes\rest-api.php(124): trim(Array, '/')
+#1 C:\xampp\htdocs\tenafirst\wp-content\themes\kivicare-child\functions.php(156): register_rest_route('kivicare/api/v1...', Array)
+#2 C:\xampp\htdocs\tenafirst\wp-includes\class-wp-hook.php(308): {closure}(Object(WP_REST_Server))
+#3 C:\xampp\htdocs\tenafirst\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\tenafirst\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\tenafirst\wp-includes\rest-api.php(577): do_action('rest_api_init', Object(WP_REST_Server))
+#6 C:\xampp\htdocs\tenafirst\wp-includes\rest-api.php(403): rest_get_server()
+#7 C:\xampp\htdocs\tenafirst\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#8 C:\xampp\htdocs\tenafirst\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\tenafirst\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\tenafirst\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#11 C:\xampp\htdocs\tenafirst\wp-includes\class-wp.php(780): WP->parse_request('')
+#12 C:\xampp\htdocs\tenafirst\wp-includes\functions.php(1334): WP->main('')
+#13 C:\xampp\htdocs\tenafirst\wp-blog-header.php(16): wp()
+#14 C:\xampp\htdocs\tenafirst\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\tenafirst\wp-includes\rest-api.php on line 124
+

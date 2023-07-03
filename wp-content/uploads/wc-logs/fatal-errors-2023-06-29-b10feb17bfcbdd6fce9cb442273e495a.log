@@ -1,0 +1,6 @@
+2023-06-29T12:26:03+00:00 CRITICAL Out of memory (allocated 96468992) (tried to allocate 20480 bytes) in C:\xampp\htdocs\tenafirst\wp-content\plugins\woocommerce\includes\class-wc-structured-data.php on line 29
+
+2023-06-29T13:16:00+00:00 CRITICAL syntax error, unexpected identifier "wp_users" in C:\xampp\htdocs\tenafirst\wp-content\themes\kivicare-child\functions.php on line 206
+
+2023-06-29T13:16:01+00:00 CRITICAL syntax error, unexpected identifier "wp_users" in C:\xampp\htdocs\tenafirst\wp-content\themes\kivicare-child\functions.php on line 206
+
